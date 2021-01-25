@@ -26,6 +26,9 @@ def myeval(s):
     # code injection vulnerabilities. Usually best to avoid it entirely...
 
 def traverse(tree):
+    # In real life, you'd probably use ast.NodeTransformer instead of implementing a
+    # traversal yourself
+
     # print(tree)
     if isinstance(tree, ast.Module):
         for node in tree.body:
