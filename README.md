@@ -1,5 +1,7 @@
 # Python AST (syntax tree) examples for lunch-n-learn
 
+Slides: https://docs.google.com/presentation/d/1Ri40Kb5aE9uz-DcHvuWwx-o_0mRtIIY4WoPHY0nLIcc/edit?usp=sharing
+
 To run the completed code:
 
     cd done
