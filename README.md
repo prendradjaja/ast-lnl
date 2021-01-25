@@ -12,8 +12,10 @@ To run the completed code:
     # Activate that virtualenv. Note the space after the dot.
     . env/bin/activate
 
-    # --isolated may be needed if you run this on your work computer, but can
-    # be omitted otherwise
+    # --isolated may be needed if you run this on a Crunchbase computer, but can
+    # be omitted otherwise. (--isolated runs pip with the default settings, ignoring
+    # CB's package index, which may be configured on your computer. If using the CB
+    # package index, pip will fail to find astor)
     pip3 install --isolated astor
 
     # Run the example code files. Look at their source code to see what's going on.
